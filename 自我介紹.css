@@ -35,7 +35,7 @@ a{
 }
 .second-image{
     margin-top: -160px;    /* 往上推開 30 像素（讓圖片往下移） */
-    margin-left: 430px;
+    margin-left: 370px;
     width: 350px;           /* 1. 限制圖片寬度為 200 像素 */
     height: 350px;          /* 2. 限制圖片高度為 200 像素 */
     
