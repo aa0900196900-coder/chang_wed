@@ -1,0 +1,47 @@
+body {
+    font-size: 30px;/*字大小*/
+
+    /* 1. 啟動 Flexbox 排版系統 */
+    display: flex;
+
+    /* 2. 水平置中 (左到右的正中間) */
+    justify-content: center;
+      flex-direction: column;
+
+    /* 3. 垂直置中 (上到下的正中間) */
+    align-items: center;
+
+    /* 4. 關鍵：設定 body 的高度為螢幕的 100% */
+    /* 否則 body 高度會縮在最上面，垂直置中就看不出來 */
+    height: 100vh; 
+
+    margin: 0;
+    background-color: #f0f0f0; /* 給個舒服的底色 */
+    transition: background-color 0.5s; /* 讓 JS 變色時有淡入淡出的效果 */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* 關鍵：讓左右兩團東西分得最開 */
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed; /* 固定在最上方 */
+    top: 0;
+    width: 50%;
+}
+
+.nav-links {
+    display: flex; /* 讓清單裡面的項目也變橫的 */
+    list-style: none; /* 去掉醜醜的點點 */
+    gap: 20px;
+}
+.card {
+    background:wheat ;      /* 白色卡片 */
+    padding: 80px;
+    font-size: 30px;
+    border-radius: 15px;      /* 圓角 */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* 陰影 */
+    text-align: left;
+}
