@@ -43,8 +43,8 @@ a{
 }
 
 .container {
-    padding-right: 120px; /* 強制右邊留出空白 */
-    padding-left: 120px;  /* 建議左右對稱較美觀 */
+    padding-right: 100px; /* 強制右邊留出空白 */
+    padding-left: 100px;  /* 建議左右對稱較美觀 */
 }
 
 
