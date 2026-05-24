@@ -3,7 +3,7 @@ body{
 }
 /* 針對你 HTML 裡寫了 class="profile-img" 的那張圖片進行設定 */
 .profile-img {
-    margin-top: 40px;    /* 往上推開 30 像素（讓圖片往下移） */
+    margin-top: 20px;    /* 往上推開 30 像素（讓圖片往下移） */
     margin-left: 10px; /* 往下推開 40 像素（讓卡片往下移） */
     width: 200px;           /* 1. 限制圖片寬度為 200 像素 */
     height: 280px;          /* 2. 限制圖片高度為 200 像素 */
@@ -39,8 +39,8 @@ a{
 .second-image{
     margin-top: -130px;    /* 往上推開 30 像素（讓圖片往下移） */
     margin-left: 160px;
-    width: 300px;           /* 1. 限制圖片寬度為 200 像素 */
-    height: 300px;          /* 2. 限制圖片高度為 200 像素 */
+    width: 280px;           /* 1. 限制圖片寬度為 200 像素 */
+    height: 280px;          /* 2. 限制圖片高度為 200 像素 */
     
 
 }
