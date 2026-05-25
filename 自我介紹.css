@@ -12,7 +12,12 @@ body{
     
     /*border-radius: 50%;     /* 4. 選填：如果你想把照片變成「圓形大頭貼」可以加這行 */
 }
-
+.up{
+    margin-top: -30px;
+}
+.up1{
+    margin-top: -50px;
+}
 table{
         margin-left: auto;
     margin-right: auto;
@@ -46,8 +51,8 @@ a{
 }
 
 .container {
-    padding-right: 60px; /* 強制右邊留出空白 */
-    padding-left: 60px;  /* 建議左右對稱較美觀 */
+    padding-right: 15%; /* 強制右邊留出空白 */
+    padding-left: 15%;  /* 建議左右對稱較美觀 */
 }
 
 
